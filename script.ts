@@ -202,10 +202,10 @@ const processingNeighbors: Function = (
     processingCell.y + 1
   );
 
-  // For each valid neighbor, push it to this array
+  // For each valid neighbor, push it into this array
   const neighborsIDs: number[] = [];
 
-  // Check for any vavid neighbors
+  // Check for any valid neighbors
   if (
     1 <= topLeftID &&
     topLeftID <= nWidCells * nHeiCells &&
